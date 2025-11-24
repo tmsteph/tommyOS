@@ -1,6 +1,8 @@
-## 🌌 **daedalOS** 🌌
+## 🌌 **3DVR Portal** 🌌
 
-## _Desktop environment in the browser_
+## _Web-based desktop for the 3dvr.tech experience_
+
+Explore more at [3dvr.tech](https://3dvr.tech), [tmsteph.com](https://tmsteph.com), and the live workspace at [portal.3dvr.tech](https://portal.3dvr.tech).
 
 [![Feature Overview](https://img.youtube.com/vi/RRLq3T0Surs/mqdefault.jpg)](http://www.youtube.com/watch?v=RRLq3T0Surs)
 

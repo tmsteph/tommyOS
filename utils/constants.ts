@@ -322,14 +322,15 @@ export const DEFAULT_SCROLLBAR_WIDTH = 17;
 export const TASKBAR_HEIGHT = 30;
 
 export const PACKAGE_DATA = {
-  alias: "daedalOS",
+  alias: "TommyOS",
   author: {
-    email: "dustinbrett@gmail.com",
-    name: "Dustin Brett",
+    email: "tmsteph@gmail.com",
+    name: "Tommy Steph",
     npub: "npub10uc7hg6wdxhhd7ee8x9c5lr9d0ux7272rv2m0mc03ds54q7quxjss02r3p",
-    url: "https://dustinbrett.com",
+    url: "https://tmsteph.com",
   },
-  description: "Desktop environment in the browser",
+  description:
+    "TommyOS is a web-based desktop with quick links into 3dvr.tech and the 3DVR Portal",
   license: "MIT",
   version: "2.0.0",
 };

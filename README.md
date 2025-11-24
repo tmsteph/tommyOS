@@ -1,6 +1,9 @@
-## 🌌 **daedalOS** 🌌
+## 🌌 **TommyOS** 🌌
 
-## _Desktop environment in the browser_
+## _Web-based desktop that cross-brands with 3dvr.tech_
+
+Explore more at [3dvr.tech](https://3dvr.tech), the live workspace at [portal.3dvr.tech](https://portal.3dvr.tech),
+and [tmsteph.com](https://tmsteph.com).
 
 [![Feature Overview](https://img.youtube.com/vi/RRLq3T0Surs/mqdefault.jpg)](http://www.youtube.com/watch?v=RRLq3T0Surs)
 

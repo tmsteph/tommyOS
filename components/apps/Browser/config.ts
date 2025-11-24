@@ -9,8 +9,18 @@ type Bookmark = {
 export const bookmarks: Bookmark[] = [
   {
     icon: FAVICON_BASE_PATH,
-    name: "daedalOS",
-    url: "https://dustinbrett.com/",
+    name: "3dvr.tech",
+    url: "https://3dvr.tech/",
+  },
+  {
+    icon: FAVICON_BASE_PATH,
+    name: "tmsteph.com",
+    url: "https://tmsteph.com/",
+  },
+  {
+    icon: FAVICON_BASE_PATH,
+    name: "portal.3dvr.tech",
+    url: "https://portal.3dvr.tech/",
   },
   {
     icon: "/System/Icons/Favicons/google.webp",
@@ -39,4 +49,4 @@ export const bookmarks: Bookmark[] = [
   },
 ];
 
-export const HOME_PAGE = "https://www.google.com/webhp?igu=1";
+export const HOME_PAGE = "https://portal.3dvr.tech/";

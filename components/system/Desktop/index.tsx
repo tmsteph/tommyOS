@@ -3,7 +3,7 @@ import StyledDesktop from "components/system/Desktop/StyledDesktop";
 import useWallpaper from "components/system/Desktop/Wallpapers/useWallpaper";
 import FileManager from "components/system/Files/FileManager";
 import useHeightOverride from "hooks/useHeightOverride";
-import { DESKTOP_PATH } from "utils/constants";
+import { DESKTOP_PATH, PACKAGE_DATA } from "utils/constants";
 
 const Desktop: FC = ({ children }) => {
   const heightOverride = useHeightOverride();
@@ -23,7 +23,7 @@ const Desktop: FC = ({ children }) => {
 
   return (
     <StyledDesktop ref={desktopRef} $height={heightOverride}>
-      <div style={desktopNameStyle}>TommyOS</div>
+      <div style={desktopNameStyle}>{PACKAGE_DATA.alias}</div>
 
       <FileManager
         url={DESKTOP_PATH}

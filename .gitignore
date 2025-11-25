@@ -32,4 +32,7 @@ public/Users/Public/**
 !public/Users/Public/Start Menu/Games/DX-Ball.url
 !public/Users/Public/Start Menu/Games/Quake III Arena.url
 !public/Users/Public/Start Menu/Games/Space Cadet.url
+!public/Users/Public/Start Menu/Portal
+!public/Users/Public/Start Menu/Portal/*.url
+!public/Users/Public/Start Menu/Portal/**
 !public/Users/Public/Videos

@@ -1,0 +1,5 @@
+[InternetShortcut]
+BaseURL=Browser
+Comment=Manage events through the 3DVR calendar
+IconFile=/System/Icons/chromium.webp
+URL=https://portal.3dvr.tech/calendar/index.html

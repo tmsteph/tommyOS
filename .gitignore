@@ -18,6 +18,9 @@ public/Users/Public/**
 !public/Users/Public/Desktop
 !public/Users/Public/Desktop/My PC.url
 !public/Users/Public/Desktop/Chat.url
+!public/Users/Public/Desktop/Portal
+!public/Users/Public/Desktop/Portal/*.url
+!public/Users/Public/Desktop/Portal/**
 !public/Users/Public/Documents
 !public/Users/Public/Music
 !public/Users/Public/Pictures
@@ -32,4 +35,7 @@ public/Users/Public/**
 !public/Users/Public/Start Menu/Games/DX-Ball.url
 !public/Users/Public/Start Menu/Games/Quake III Arena.url
 !public/Users/Public/Start Menu/Games/Space Cadet.url
+!public/Users/Public/Start Menu/Portal
+!public/Users/Public/Start Menu/Portal/*.url
+!public/Users/Public/Start Menu/Portal/**
 !public/Users/Public/Videos

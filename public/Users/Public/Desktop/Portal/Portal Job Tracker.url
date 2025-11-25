@@ -1,0 +1,5 @@
+[InternetShortcut]
+BaseURL=Browser
+Comment=Track roles and pipelines in the portal job board
+IconFile=/System/Icons/chromium.webp
+URL=https://portal.3dvr.tech/job-tracker/index.html

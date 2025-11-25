@@ -1,0 +1,5 @@
+[InternetShortcut]
+BaseURL=Browser
+Comment=Log spending through the portal finance tracker
+IconFile=/System/Icons/chromium.webp
+URL=https://portal.3dvr.tech/finance/index.html

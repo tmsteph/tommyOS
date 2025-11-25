@@ -18,9 +18,18 @@ public/Users/Public/**
 !public/Users/Public/Desktop
 !public/Users/Public/Desktop/My PC.url
 !public/Users/Public/Desktop/Chat.url
-!public/Users/Public/Desktop/Portal
-!public/Users/Public/Desktop/Portal/*.url
-!public/Users/Public/Desktop/Portal/**
+!public/Users/Public/Desktop/Portal Home.url
+!public/Users/Public/Desktop/Portal Calendar.url
+!public/Users/Public/Desktop/Portal Contacts.url
+!public/Users/Public/Desktop/Portal CRM.url
+!public/Users/Public/Desktop/Portal Finance.url
+!public/Users/Public/Desktop/Portal Job Tracker.url
+!public/Users/Public/Desktop/Portal Tasks.url
+!public/Users/Public/Desktop/Portal Notes.url
+!public/Users/Public/Desktop/Portal Video Chat.url
+!public/Users/Public/Desktop/Portal OpenAI Workbench.url
+!public/Users/Public/Desktop/Portal Meditation.url
+!public/Users/Public/Desktop/Portal Wellness.url
 !public/Users/Public/Documents
 !public/Users/Public/Music
 !public/Users/Public/Pictures

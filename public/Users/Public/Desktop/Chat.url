@@ -1,0 +1,5 @@
+[InternetShortcut]
+BaseURL=Browser
+Comment=Open chat on the 3DVR Portal
+IconFile=/System/Icons/messenger.webp
+URL=https://portal.3dvr.tech/chat.html

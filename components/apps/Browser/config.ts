@@ -23,6 +23,11 @@ export const bookmarks: Bookmark[] = [
     url: "https://portal.3dvr.tech/",
   },
   {
+    icon: FAVICON_BASE_PATH,
+    name: "Portal Chat",
+    url: "https://portal.3dvr.tech/chat.html",
+  },
+  {
     icon: "/System/Icons/Favicons/google.webp",
     name: "Google",
     url: "https://www.google.com/webhp?igu=1",

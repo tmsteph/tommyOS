@@ -1,8 +1,48 @@
 import { memo } from "react";
 
 const StartButtonIcon = memo(() => (
-  <svg viewBox="0 0 588.42 568.88" xmlns="http://www.w3.org/2000/svg">
-    <path d="m10.5 177.038 20.675 1.532c21.44-24.249 29.864-95.974 156.213-81.935-4.595 307.32-139.367 339.737-130.943 402.784 3.063 35.735 31.395 57.687 62.025 58.963 96.74-3.318 92.4-133.751 122.52-462.513h124.818c-6.637 115.883-24.76 231.767-26.802 345.353 1.532 75.554 47.477 115.884 107.971 116.394 99.548 3.318 130.943-112.82 130.943-162.339h-21.44c-2.043 40.84-21.697 70.194-63.558 71.98-114.097 1.532-51.305-200.626-50.54-369.857l135.538.766-.765-86.53C13.807 8.908 85.312-2.137 10.5 177.038z" />
+  <svg role="img" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient
+        gradientUnits="userSpaceOnUse"
+        id="startPortalGlow"
+        x1="14"
+        x2="50"
+        y1="10"
+        y2="54"
+      >
+        <stop stopColor="#7cf0ff" />
+        <stop offset="0.45" stopColor="#47a3ff" />
+        <stop offset="1" stopColor="#7c5dff" />
+      </linearGradient>
+      <radialGradient cx="50%" cy="45%" id="startInnerLight" r="55%">
+        <stop offset="0" stopColor="#1c2a5a" />
+        <stop offset="1" stopColor="#0c1128" />
+      </radialGradient>
+    </defs>
+    <rect fill="#050814" height="64" rx="14" width="64" />
+    <rect
+      fill="url(#startInnerLight)"
+      height="52"
+      rx="12"
+      width="52"
+      x="6"
+      y="6"
+    />
+    <path
+      d="M16 28.5c0-8.5 8.5-15.5 18.5-15.5S53 20 53 28.5c0 5.7-4 10.3-10.2 12.1l-2.9.8c-3.2.8-4.9 2-5.6 4.9l-.7 3.1h-6.7l1-4.9c1.2-5.5 5.2-7.9 9.5-9l2.8-.7c3-.8 4.8-2.7 4.8-5.4 0-4.1-4.2-7.6-10.3-7.6-5.8 0-10.9 3.3-10.9 8.2 0 1.6.7 3.6 1.8 5l-5.3 3.2C17.2 35.7 16 32.1 16 28.5Z"
+      fill="url(#startPortalGlow)"
+    />
+    <path
+      d="M18.5 44.5c3 4.3 8.4 6.8 14.5 6.8 6.4 0 12.1-2.9 15-7.6"
+      fill="none"
+      opacity="0.8"
+      stroke="#7cf0ff"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2.25"
+    />
+    <circle cx="46.5" cy="18.5" fill="#7cf0ff" opacity="0.9" r="4" />
   </svg>
 ));
 

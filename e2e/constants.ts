@@ -219,7 +219,7 @@ export const TEST_APP_ICON = /\/pc\.(webp|png)$/;
 
 export const TEST_ROOT_ARCHIVE = /^archive.zip$/;
 export const TEST_ROOT_FILE = /^CREDITS.md$/;
-export const TEST_ROOT_FILE_2 = /^favicon.ico$/;
+export const TEST_ROOT_FILE_2 = /^favicon.svg$/;
 export const TEST_ROOT_FILE_TEXT = "CREDITS.md";
 export const TEST_ROOT_FILE_DEFAULT_APP = "Marked";
 export const TEST_ROOT_FILE_ALT_APP = "Monaco Editor";
@@ -237,7 +237,7 @@ export const NEW_FILE_LABEL_TEXT = "New Text Document.txt";
 export const CLOCK_REGEX = /^(1[0-2]|0?[1-9])(?::[0-5]\d){2}\s?(AM|PM)$/;
 
 export const BASE_APP_TITLE = "TommyOS";
-export const BASE_APP_FAVICON = /^\/favicon.ico$/;
-export const BASE_APP_FAVICON_TEXT = "/favicon.ico";
+export const BASE_APP_FAVICON = /^\/favicon.svg$/;
+export const BASE_APP_FAVICON_TEXT = "/favicon.svg";
 
 export const UNKNOWN_ICON_PATH = "/System/Icons/48x48/unknown.png";

@@ -1,5 +1,12 @@
 import { extname } from "path";
-import { memo, useCallback, useEffect, useMemo, useState } from "react";
+import {
+  type FC,
+  memo,
+  useCallback,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
 import Head from "next/head";
 import { getFirstAniImage } from "components/system/Files/FileEntry/functions";
 import { useFileSystem } from "contexts/fileSystem";
@@ -79,6 +86,22 @@ const Metadata: FC = () => {
         : imageSrc(favIcon, 16, getDpi(), ".webp").split(" ")[0],
     [favIcon]
   );
+  const favIconType = useMemo(() => {
+    const extension = extname(currentFavIcon).toLowerCase();
+
+    switch (extension) {
+      case ".svg":
+        return "image/svg+xml";
+      case ".ico":
+        return "image/x-icon";
+      case ".png":
+        return "image/png";
+      case ".gif":
+        return "image/gif";
+      default:
+        return "image/webp";
+    }
+  }, [currentFavIcon]);
   const getCursor = useCallback(
     async (path: string) => {
       const imageBuffer = await readFile(path);
@@ -144,7 +167,7 @@ const Metadata: FC = () => {
     <Head>
       <title>{title}</title>
       {currentFavIcon && (
-        <link href={currentFavIcon} rel="icon" type="image/webp" />
+        <link href={currentFavIcon} rel="icon" type={favIconType} />
       )}
       <meta
         content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"

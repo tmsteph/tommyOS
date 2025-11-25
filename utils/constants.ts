@@ -264,7 +264,7 @@ export const SESSION_FILE = "/session.json";
 
 export const SHORTCUT_ICON = `${ICON_PATH}/shortcut.webp`;
 
-export const FAVICON_BASE_PATH = "/favicon.ico";
+export const FAVICON_BASE_PATH = "/favicon.svg";
 
 export const FOLDER_ICON = `${ICON_PATH}/folder.webp`;
 

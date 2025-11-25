@@ -1,4 +1,5 @@
 import { extname } from "path";
+import type { FC } from "react";
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
 import Head from "next/head";
 import { getFirstAniImage } from "components/system/Files/FileEntry/functions";

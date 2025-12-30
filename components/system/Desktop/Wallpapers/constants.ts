@@ -67,6 +67,10 @@ export const WALLPAPER_MENU: WallpaperMenuItem[] = [
     startsWith: true,
   },
   {
+    id: "SOLID",
+    name: "Solid Color",
+  },
+  {
     id: "COASTAL_LANDSCAPE",
     name: "Coastal Landscape",
   },

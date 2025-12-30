@@ -194,6 +194,7 @@ const useWallpaper = (
       }
     },
     [
+      colors.background,
       desktopRef,
       exists,
       readFile,

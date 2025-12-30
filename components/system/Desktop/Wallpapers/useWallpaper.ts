@@ -114,6 +114,14 @@ const useWallpaper = (
         window.WallpaperDestroy?.();
       }
 
+      if (wallpaperName === "SOLID") {
+        document.documentElement.style.setProperty(
+          "background",
+          colors.background
+        );
+        return;
+      }
+
       if (
         !failedOffscreenContext.current &&
         window.OffscreenCanvas !== undefined &&

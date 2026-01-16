@@ -1,9 +1,14 @@
 import { useRef } from "react";
 import StyledDesktop from "components/system/Desktop/StyledDesktop";
+import StyledIssueLink from "components/system/Desktop/StyledIssueLink";
 import useWallpaper from "components/system/Desktop/Wallpapers/useWallpaper";
 import FileManager from "components/system/Files/FileManager";
 import useHeightOverride from "hooks/useHeightOverride";
-import { DESKTOP_PATH, PACKAGE_DATA } from "utils/constants";
+import {
+  DESKTOP_PATH,
+  GITHUB_NEW_ISSUE_URL,
+  PACKAGE_DATA,
+} from "utils/constants";
 
 const Desktop: FC = ({ children }) => {
   const heightOverride = useHeightOverride();
@@ -34,6 +39,13 @@ const Desktop: FC = ({ children }) => {
         isDesktop
         loadIconsImmediately
       />
+      <StyledIssueLink
+        href={GITHUB_NEW_ISSUE_URL}
+        rel="noreferrer"
+        target="_blank"
+      >
+        Report an issue
+      </StyledIssueLink>
       {children}
     </StyledDesktop>
   );

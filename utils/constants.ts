@@ -335,6 +335,9 @@ export const PACKAGE_DATA = {
   version: "2.0.0",
 };
 
+export const GITHUB_NEW_ISSUE_URL =
+  "https://github.com/tmsteph/tommyOS/issues/new";
+
 export const BASE_ZIP_CONFIG: AsyncZipOptions = {
   consume: true,
   level: 0,
